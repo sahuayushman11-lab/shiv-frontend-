@@ -2,6 +2,11 @@
 
 A teen-friendly expense tracker that records income and spending, visualizes habits with charts, tracks monthly budgets and savings goals, and provides practical spending insights.
 
+## Live frontend
+
+Open the deployed application at
+`https://shiv-frontend-6lih62wla-ayushman13.vercel.app/login`.
+
 ## Tech stack
 
 - Frontend: React, Vite, Tailwind CSS, Recharts
@@ -36,6 +41,13 @@ teen-expense-tracker/
    ```
 
 The app is served at `http://localhost:5173` and the API runs at `http://localhost:5000`.
+
+## Deployed API
+
+The production backend is available at
+`https://teenexpense-tracker-backend-jsqk.onrender.com/api`.
+
+Set `VITE_API_URL` to this value when deploying the frontend.
 
 ## Environment variables
 
